@@ -62,7 +62,7 @@ print("currentSha: ", currentSha)
 print("lastSha: ", lastSha)
 while not exit:
     time.sleep(checkEvery)
-    currentSha = gitHubMasterSha(githubUser, githubRepo)
+    currentSha = gitHubMasterSha(githubUser, githubRepo, gitHubAccessToken)
 
     print("newSha - lastSha - checked at: ",currentSha, " - ", lastSha, " - ", datetime.now())
 
