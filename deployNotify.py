@@ -41,7 +41,8 @@ def playSoundMac(soundFile):
     playsound(soundFile)
 
 
-def sound(soundFile="error.mp3", macMode=True):
+# redWingsGoal.mp3 , error.mp3
+def sound(soundFile="redWingsGoal.mp3", macMode=True):
     playSoundMac(soundFile) if macMode else playSoundPi(soundFile)
 
 
@@ -53,9 +54,9 @@ githubRepo = "typescript"
 gitHubAccessToken = ""
 
 # python doesnt have do-while loops. so lets "prime the pump"
-lastSha  = gitHubMasterSha(githubUser, githubRepo, gitHubAccessToken)
-# currentSha = currentSha
-currentSha = "Test start value to always trigger first run"
+currentSha = gitHubMasterSha(githubUser, githubRepo, gitHubAccessToken)
+lastSha = currentSha
+# lastSha = "Test start value to always trigger first run"
 
 print("currentSha: ", currentSha)
 print("lastSha: ", lastSha)
