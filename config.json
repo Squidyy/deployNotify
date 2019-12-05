@@ -1,0 +1,19 @@
+{
+  "frequency_seconds": 60,
+  "repos": [
+    {
+      "access_token": "8187b714e1b81ba57edf6473810c4289a0fa00be",
+      "branch": "master",
+      "repo_name": "upperhand.io",
+      "repo_owner": "upper-hand",
+      "sound": "red_wings_goal.mp3"
+    },
+    {
+      "access_token": "8187b714e1b81ba57edf6473810c4289a0fa00be",
+      "branch": "master",
+      "repo_name": "fe-upperhand.io",
+      "repo_owner": "upper-hand",
+      "sound": "red_wings_goal.mp3"
+    }
+  ]
+}
