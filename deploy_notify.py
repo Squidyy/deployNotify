@@ -1,8 +1,8 @@
 #!/usr/bin/.env python3
 
 from notify import core, sha, FREQUENCY, REPOS
-from twisted.internet import task, reactor
 from os import getenv
+from twisted.internet import task, reactor
 
 if getenv('GITHUB_API_TOKEN') is None:
     raise Exception('No Github access token provided.')
