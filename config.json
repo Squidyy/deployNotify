@@ -1,0 +1,17 @@
+{
+  "frequency_seconds": 60,
+  "repos": [
+    {
+      "branch": "master",
+      "repo_name": "upperhand.io",
+      "repo_owner": "upper-hand",
+      "sound": "red_wings_goal.mp3"
+    },
+    {
+      "branch": "master",
+      "repo_name": "fe-upperhand.io",
+      "repo_owner": "upper-hand",
+      "sound": "red_wings_goal.mp3"
+    }
+  ]
+}
