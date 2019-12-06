@@ -1,0 +1,10 @@
+#!/usr/bin/.env bash
+
+if [ -z "${GITHUB_API_TOKEN}" ]; then
+  echo 'Please set GITHUB_API_TOKEN.'
+else
+  git clone git@github.com:Squidyy/deployNotify.git deploy_notify_python
+  pip3 install -r deploy_notify_python/requirements.txt
+  source deploy_notify_python/.env
+  python3 deploy_notify_python/deploy_notifty.py
+fi
